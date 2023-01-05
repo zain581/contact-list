@@ -10,7 +10,7 @@
    </head>
    <body>
 
-      
+
       <div id="app">
          <header>
             <div class="jumbotron">
@@ -30,7 +30,7 @@
             </div>
          </section>
          <main>
-            <!-- Start Contact-->
+
             <div class="contact col-lg-3" v-for="(contact, index) in contacts">
                <h4><span class="fa fa-user-circle"></span> {{ contact.name }} <span class="badge">{{ index + 1 }}</span></h4>
                <h4>
@@ -41,7 +41,7 @@
                <input type="button" class="btn btn-danger col-xs-5 col-medium-3 col-lg-3" value="Delete" @click="deleteContact">
                <br><br>
             </div>
-            <!-- End Contact -->
+
       </div>
       </main>
       <script src="js/jquery.js"></script>
