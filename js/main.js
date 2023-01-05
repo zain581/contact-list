@@ -26,7 +26,7 @@ const app = new Vue({
          } else {
             this.error = true; //Shpw error message
          }
-      }, //End addContact method
+      }, 
       deleteContact(arrayItem) {
          let index = this.contacts.indexOf(arrayItem); //get element/contact
          this.contacts.splice(index, 1); //delete
