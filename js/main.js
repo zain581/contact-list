@@ -19,12 +19,12 @@ const app = new Vue({
             if (this.error) {
                this.error = false; //if error is visible just disappear
             }
-            //Clean inputs
+
             this.contact_name = '';
             this.contact_number = '';
             this.contact_description = '';
          } else {
-            this.error = true; //Shpw error message
+            this.error = true; 
          }
       }, 
       deleteContact(arrayItem) {
