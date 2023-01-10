@@ -28,8 +28,8 @@ const app = new Vue({
          }
       }, 
       deleteContact(arrayItem) {
-         let index = this.contacts.indexOf(arrayItem); //get element/contact
-         this.contacts.splice(index, 1); //delete
+         let index = this.contacts.indexOf(arrayItem); 
+         this.contacts.splice(index, 1); 
       },
    }  
 });
