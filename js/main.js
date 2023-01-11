@@ -7,7 +7,7 @@ const app = new Vue({
       contact_description: null,
       contact_search: null,
       contacts: [{name: 'Sherman', number: 1564388161,  description: 'Developer'}]
-   }, //End data obj
+   }, 
    methods: {
       addContact() {
          if (this.contact_name != null && this.contact_number != null && this.contact_description != null) { //If the contact is empty not create
