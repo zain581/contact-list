@@ -31,5 +31,5 @@ const app = new Vue({
          let index = this.contacts.indexOf(arrayItem); //get element/contact
          this.contacts.splice(index, 1); //delete
       },
-   } //End methods obj 
+   }  
 });
